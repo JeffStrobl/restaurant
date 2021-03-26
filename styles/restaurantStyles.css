@@ -1,0 +1,73 @@
+/*
+    Creator: Jeff Strobl
+    Date Created: 03/21/21 
+    Most recent revision: 03/21/21
+*/
+    body {
+        background-color: #b4bba2;
+        font-family: arial, helvetica, sans-serif;
+        color: #0d1f2d;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header{
+        background-color: #5b876d;
+        color: #f9fff9;
+        height: 100px;
+        text-align: center;
+        padding: 30px 10px 20px 10px;
+        font-family: "Roboto", sans-serif;
+    }
+   footer{
+        background-color: #5b876d;
+        color: #f9fff9;
+        height: 100px;
+        text-align: center;
+        padding: 10px 10px 30px 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    nav {
+        border-top: 3px dashed #5b876d;
+        border-bottom: 3px dashed #5b876d;
+        margin-top: 4px;
+    }
+    .clear-float {
+        clear:both;
+    }
+/*    article img {
+        float:left;
+     }
+     .right-content {
+         float: left;
+     }
+*/
+     article {
+         margin-bottom: 16px;
+     }
+     a {
+        background-color: #5b7d87;
+        color: #fef9ff;
+        padding: 8px;
+        border: thin solid #0d1f2d;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin: 20px;
+        width: 100px;
+        float: left;
+    }
+    nav a:visited {
+        background-color: #5b876d;
+        color: #b0bfff;
+    }
+    nav a:hover{
+        background-color: #5b876d;
+        color: #f9fff9;
+        font-weight: bold;
+    }
+    nav a:active{
+        background-color: #5b876d;
+        font-weight: bold;
+    }

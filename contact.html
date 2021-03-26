@@ -2,13 +2,19 @@
 <!--
     Name: Jeff Strobl 
     Date Created: 03.15.21 
-    Most recent revision: 03.15.21
+    Most recent revision: 03.21.21
 -->
 <html lang="en"> 
     <head>
         <p id="home"></p> 
         <title>Doc's Kitchen - Contact</title>
-        <hr />	
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+         .bold_text {
+            font-weight: bold;
+        }
+        </style>	
     </head> 
     
     <body>
@@ -16,21 +22,20 @@
             <h1>Doc's Kitchen</h1>
         </header>
 
-        <hr />
-        <!-- Nav Links, code pulled from we3 -->
-        <div class="topnav">
+        <nav>
             <a href="index.html">Home</a>
             <a href="menu.html">Menu</a>
             <a href="contact.html">Contact Us</a>
-          </div>
-          <hr />
+            <div class="clear-float"></div>
+        </nav>
+         
         <br />
             <form action="fakePage.html" method="POST">
-            Name: <input type="text" name="name:"/> 
-            <br />
-            Email: <input type="text" name="email:"/> 
-            <br />
-            Phone: <input type="text" name="phone:"/>
+
+            <p class="bold_text ">Name: <input type="text" name="name:"/></p>
+            <p class="bold_text ">Email: <input type="text" name="email:"/></p>
+            <p class="bold_text ">Phone: <input type="text" name="phone:"/></p>
+
             <br />
             <br />
             Reason for Inquiry:<select name="Reason for Inquiry:">
@@ -64,10 +69,10 @@
 
     <footer>
         <h3>
-        <hr />
         <p>3131 Mockingbird Lane NW, Ramsey, MN 55303</p>
         <p>612-555-6512</p>
         </h3>
+        <p>&copy; 2021 Jeff Strobl. All rights reserved.</p>
     </footer>
     </body> 
 </html
